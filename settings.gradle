@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            url 'https://tmf-work-maven.pkg.coding.net/repository/tmf/android/'
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://tmf-work-maven.pkg.coding.net/repository/tmf/android/'
+        }
+        jcenter()
+    }
+}
+
+
+
+rootProject.name = "Tencent Test"
+include ':app'
