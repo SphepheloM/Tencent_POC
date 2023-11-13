@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     private fun starApplet() {
         TmfMiniSDK.startMiniApp(
             this,
-            "tmfdxxeee49jvgdtkv",
+            "tmf3z0jbp2yejcjvzz",
             MiniScene.LAUNCH_SCENE_SEARCH,
             MiniApp.TYPE_ONLINE,
             MiniStartOptions()
